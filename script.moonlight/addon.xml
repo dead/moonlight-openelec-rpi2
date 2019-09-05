@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.moonlight"
+       name="Moonlight"
+       version="9.0.241"
+       provider-name="Team LibreELEC">
+  <requires>
+    <import addon="os.libreelec.tv" version="9.0"/>
+    <import addon="xbmc.python" version="2.1.0"/>
+
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service">
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Moonlight: implementation of NVIDIA's GameStream protocol</summary>
+    <description>
+Moonlight (2.4.10): allows you to stream your collection of games from your PC (with NVIDIA Gamestream) to your device and play them remotely
+    </description>
+    <disclaimer>
+
+    </disclaimer>
+    <platform>all</platform>
+    <news>
+    </news>
+    <assets>
+      <icon>resources/icon.png</icon>
+      <fanart>resources/fanart.png</fanart>
+
+    </assets>
+  </extension>
+</addon>
